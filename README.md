@@ -1,11 +1,13 @@
-=介紹=
-【康托展開】
-演算法來自：http://zh.wikipedia.org/wiki/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80
-說明：給定一個字串，在這個字串的排列組合中，找出第n個排列組合
-需求：有使用到GMP的php extention (http://php.net/manual/en/book.gmp.php)
-作者：FoFo sunz5010@gmail.com
+# 介紹
+##【康托展開】
+
+* 演算法來自：[康托wiki介紹](http://zh.wikipedia.org/wiki/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80)
+* 說明：給定一個字串，在這個字串的排列組合中，找出第n個排列組合
+* 需求：有使用到GMP的php extention (http://php.net/manual/en/book.gmp.php)
+* 作者：FoFo sunz5010@gmail.com
 	
-=使用方式=
+## 使用方式
+```
 <?php
 	//Define
 	//全排列的字串
@@ -27,7 +29,10 @@
 	//找出64位字串最後一個排列組合
 	echo CantorExpand(count($word),"126886932185884164103433389335161480802865516174545192198801894375214704230400000000000000")."\r\n";
 ?>
+```
 
+```
 //輸出結果
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxz6+4819/70325y
 /+9876543210zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+```
